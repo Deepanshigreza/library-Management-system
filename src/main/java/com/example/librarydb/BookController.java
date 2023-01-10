@@ -29,6 +29,7 @@ BookService bookService;
                 }
                 return book;
         }
+        //update pages
         @PutMapping("/update_pages")
         public void updatePages(@RequestBody()UpdateBookPages updateBookPage){ //Book book
 
